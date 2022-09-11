@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     #box{
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        margin-top: 50px;
+     }
+     #box>div{
+        border: 1px solid red;
+        height: auto;
+        padding: 0px 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+     #box>div>div{
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+        
+        
+     }
+     #box>div>div>div:nth-child(2)>h2{
+        color: goldenrod;
+     }
+     #box>div>p{
+        color: grey;
+     }
+     @media all and (min-width:500px) and (max-width:720px){
+        #box{
+            grid-template-columns: repeat(2,1fr);
+            width: 100%;
+        }
+     }
+     @media all and (min-width:350px) and (max-width:499px){
+        #box{
+            grid-template-columns: repeat(1,1fr);
+
+        }
+     }
+     
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+        <div>
+            <div>
+                <div><h2>Cappucino</h2></div>
+                <div><h2>$49</h2></div>
+            </div>
+            <p>usage of the internet is becoming moer common due to rapid advance</p>
+        </div>
+    </div>
+</body>
+</html>
